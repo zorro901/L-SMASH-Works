@@ -59,7 +59,7 @@ avisynth_dep = dependency('avisynth').partial_dependency(compile_args: true, inc
 deps = [
   avisynth_dep,
   dependency('liblsmash'),
-  dependency('libavcodec', version: '>=58.91.0'),
+  dependency('libavcodec', version: '>=58.54.100'),
   dependency('libavformat', version: '>=58.45.0'),
   dependency('libavutil', version: '>=56.51.0'),
   dependency('libswresample', version: '>=3.7.0'),
