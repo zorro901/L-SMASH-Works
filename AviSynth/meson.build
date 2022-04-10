@@ -63,7 +63,7 @@ deps = [
   dependency('libavformat', version: '>=58.29.100'),
   dependency('libavutil', version: '>=56.31.100'),
   dependency('libswresample', version: '>=3.5.100'),
-  dependency('libswscale', version: '>=5.7.0')
+  dependency('libswscale', version: '>=5.5.100')
 ]
 
 if host_machine.cpu_family().startswith('x86')
