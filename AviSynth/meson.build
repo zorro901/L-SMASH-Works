@@ -61,7 +61,7 @@ deps = [
   dependency('liblsmash'),
   dependency('libavcodec', version: '>=58.54.100'),
   dependency('libavformat', version: '>=58.29.100'),
-  dependency('libavutil', version: '>=56.51.0'),
+  dependency('libavutil', version: '>=56.31.100'),
   dependency('libswresample', version: '>=3.7.0'),
   dependency('libswscale', version: '>=5.7.0')
 ]
